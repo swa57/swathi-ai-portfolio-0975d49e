@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
   },
 
   // 👇👇 IMPORTANT: ADD THIS LINE FOR GITHUB PAGES 👇👇
-  base: "/swathi-ai-portfolio/",
+  base: "/swathi-ai-portfolio-0975d49e/",
 
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
